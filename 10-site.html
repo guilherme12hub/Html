@@ -1,59 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <html>
-    <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Compasso Musical - Loja de instrumentos musicais</title>
 </head>
+
 <body>
-<!--Cabeçalho-->
-        <header>
-            <div id="Logo">
-                <h1>Compasso Musical</h1>
-            </div>
-            <nav>
-                <ul>
+    <!--Cabeçalho-->
+    <header>
+        <div id="Logo">
+            <h1>Compasso Musical</h1>
+        </div>
+        <nav>
+            <ul>
                 <li>
-                    <a href="">Inicio</a>
+                    <a href="#hero">Inicio</a>
                 </li>
                 <li>
-                    <a href="">Sobre</a>
-                </li>
-                <li>
-                    <a href="">Instrumentos</a>
-                </li>
-                <li>
-                    <a href="">Depoimentos</a>
-                </li>
-                <li>
-                    <a href="">Contatos</a>
-                </li>
-                </ul>
-            
-            </nav>
-        </header>
-
-        <!--Conteúdo Principal-->
-        <main>
-            Conteúdo Principal
-        </main>
-        <!-- Rodapé do Site-->
-        <footer>
-            <div>
-                <h2>Compasso Musical</h2>
-                <p>
-                    Desde 2026 conectando pessoas através da música.
-                </p>
-            </div>
-
-            <nav>
-                <ul>
-                <li>
-                    <a href="">Inicio</a>
-                </li>
-                <li>
-                    <a href="">Sobre</a>
+                    <a href="#sobre">Sobre</a>
                 </li>
                 <li>
                     <a href="">Instrumentos</a>
@@ -64,55 +31,159 @@
                 <li>
                     <a href="">Contatos</a>
                 </li>
-                </ul>
-            </nav>
+            </ul>
 
-            <nav>
-                <h1>Informações</h1>
-                <ul>
-                    <li>
-                        <a href="">Termos de Uso</a>
-                    </li>
-                    <li>
-                        <a href="">Política de Privacidade</a>
-                    </li>
-                    <li>
-                        <a href="">Trocas e Devoluções</a>
-                    </li>
-                </ul>
-            </nav>
+        </nav>
+    </header>
 
-            <div>
-                <h3>Siga-nos</h3>
-                <div>
-                    <a href="">
-                        <img src="Instagram.png" alt="Instagram">
-                    </a>
-                    <a href="">
-                        <img src="facebook.png" alt="Facebook">
-                    </a>
-                    <a href="">
-                        <img src="youtube.png" alt="Youtube">
-                    </a>
-                </div>
-            </div>
+    <!--Conteúdo Principal-->
+    <main>
+        <section id="hero">
+            <h2>O som da sua vida começa aqui</h2>
+            <p>
+                Encontre as melhores marcas de violino, trompetes ou violões.
+            </p>
+            <img 
+                 src="banda-rock.jpg" 
+                 alt="Banda de Rock num show usando os instrumentos musicais da Compasso Musical"
+                 width="600">
+            <br><br>
+            <a href="">Ver nossas ofertas</a>
+        </section>
 
-            <div>
-                <h3>Newsletter</h3>
+        <!-- Seção Sobre -->
+        <section id="sobre">
+            <h2>Sobre o Compasso Musical</h2>
+            <p>
+                Nossa loja nasceu da paixão pela música. Nossa missão é entregar qualidade sonora tanto para quem está
+                aprendendo os primeiros acordes quanto para músicos profissionais.
+            </p>
+            <ul>
+                <li>Todos os instrumentos são revisados por nossa equipe técnica</li>
+                <li>Garantia estendida de fábrica</li>
+                <li>Suporte e atendimento feito por músicos reais</li>
+            </ul>
+        </section>
+
+        <!-- Seção dos Instrumentos -->
+        <section id="instrumentos">
+            <h2>Cátalogo</h2>
+            <article>
+                <h3>Guitarra Elétrica StratoCaster</h3>
+                <img 
+                     src="https://images.unsplash.com/photo-1649814111291-3a0a0985dff5?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                     alt="imagem da Guitarra Elétrica StratoCaster" 
+                     width="300">
                 <p>
-                    Receba promoções exclusivas no seu e-mail
+                    <strong>Marca: </strong>Fender
                 </p>
-                <form action="">
-                    <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
-                    <button type="submit">Assinar</button>
-                </form>
-            </div>
-
-            <div>
                 <p>
-                    Copyright &copy; 2026 Compasso Musical - Todos os direitos reservados. Site desenvolvido por Guilherme Rodrigues
+                    Guitarra clássica de alta perfomance, ideal para rock e blues.
                 </p>
+                <p>
+                    <em>Preço: R$ 3.500,00</em>
+                </p>
+                <a href="#">Adicionar ao carrinho</a>
+            </article>
+            <article>
+                <h3>Kit Bateria</h3>
+                <img 
+                     src="https://images.unsplash.com/photo-1526857833023-721f5005ab32?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                     alt="imagem do Kit de Bateria" 
+                     width="300"
+                >
+                <p>
+                    <strong>Marca: </strong>Pearl
+                </p>
+                <p>
+                    Kit de bateria ideal para você
+                </p>
+                <p>
+                    <em>Preço: R$ 13.900,00</em>
+                </p>
+                <a href="#">Adicionar ao carrinho</a>
+            </article>
+        </section>
+    </main>
+
+    <!-- Rodapé do Site-->
+    <footer>
+        <div>
+            <h2>Compasso Musical</h2>
+            <p>
+                Desde 2026 conectando pessoas através da música.
+            </p>
+        </div>
+
+        <nav>
+            <h1>Mapa do Site</h1>
+            <ul>
+                <li>
+                    <a href="#hero">Inicio</a>
+                </li>
+                <li>
+                    <a href="#sobre">Sobre</a>
+                </li>
+                <li>
+                    <a href="">Instrumentos</a>
+                </li>
+                <li>
+                    <a href="">Depoimentos</a>
+                </li>
+                <li>
+                    <a href="">Contatos</a>
+                </li>
+            </ul>
+        </nav>
+
+        <nav>
+            <h1>Informações</h1>
+            <ul>
+                <li>
+                    <a href="">Termos de Uso</a>
+                </li>
+                <li>
+                    <a href="">Política de Privacidade</a>
+                </li>
+                <li>
+                    <a href="">Trocas e Devoluções</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div>
+            <h3>Siga-nos</h3>
+            <div>
+                <a href="">
+                    <img src="Instagram.png" alt="Instagram">
+                </a>
+                <a href="">
+                    <img src="facebook.png" alt="Facebook">
+                </a>
+                <a href="">
+                    <img src="youtube.png" alt="Youtube">
+                </a>
             </div>
-        </footer>
-    </body>
+        </div>
+
+        <div>
+            <h3>Newsletter</h3>
+            <p>
+                Receba promoções exclusivas no seu e-mail
+            </p>
+            <form action="">
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+                <button type="submit">Assinar</button>
+            </form>
+        </div>
+
+        <div>
+            <p>
+                Copyright &copy; 2026 Compasso Musical - Todos os direitos reservados. Site desenvolvido por Guilherme
+                Rodrigues
+            </p>
+        </div>
+    </footer>
+</body>
+
 </html>
